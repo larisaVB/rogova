@@ -1,0 +1,218 @@
+<html>
+
+ <head>
+
+  <title>мой прект</title>
+
+  <style>
+
+body {
+
+font: 15pt Arial, Helvetica, sans-serif; /* Шрифт теста */
+
+background: hsl(253, 96%, 44%)(55, 65%, 97%); /* Цвет фона */
+
+
+}
+
+h2 {
+
+font-size: 42px; /* Размер шрифта в заголовке */
+
+color: #121213 ; /* Цвет заголовка */
+
+margin-top: 0; /* Отступ сверху */
+
+
+}
+
+.container {
+
+width: 1400px; /* Ширина слоя */
+height: 700px;
+
+margin: 0 auto; /* Выравнивнить весь блок по центру */
+
+background: hsl(253, 54%, 50%); /* Цвет фона левой колонки */
+
+}
+
+
+
+.sidebar {
+
+margin-top: 15px;
+
+width: 115px; /* Ширина блока */
+
+padding:  10px; /* Отступы внутри левого блока */
+
+float: left; /* Обтекание блока по правому краю */
+color: #0c0202; /* Цвет текста */
+
+}
+
+.content {
+
+margin-left: 130px; /* Отступ слева */
+
+padding: 40px; /* Отступы внутри правого блока */
+
+background: linear-gradient(-45deg, #d87658, #c90852, #23a6d5, #76e9ce);
+     background-size: 400% 400%;
+     animation: gradient 15s ease infinite;
+     height: 100vh;
+color: #0c0202; /* Цвет фона правого блока */
+width: 1200px; /* Ширина слоя */
+height: 550px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer {
+
+background: hsl(253, 54%, 50%); /* Цвет фона нижнего блока-подвала */
+
+color: #0a0101; /* Цвет текста подвала */
+
+padding: 5px; /* Отступы внутри блока */
+
+clear: left; /* Отменяем действие float */
+
+}
+   .markers li::marker {
+	color: hsl(258, 100%, 50%);
+	font-size: 18px;
+    list-style-type:circle;
+}
+
+  .btn {
+      display: inline-block; /* Строчно-блочный элемент */
+      background: hsl(160, 12%, 90%); /* Серый цвет фона */
+      color: #4169E1 ; /* Белый цвет текста */
+      padding: 0.5rem 0.5rem; /* Поля вокруг текста */
+      text-decoration: none; /* Убираем подчёркивание */
+      border-radius: 3px; /* Скругляем уголки */
+      border: 2px solid rgb(76, 0, 255); 
+      font-size: 15px;
+     }
+     
+     .animation-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #042548;
+  height: 150px;
+}
+.bg-ex-stars {
+  background: url('код1.jpg'); /* Путь к картинке */
+  background-position: 0 0;
+  background-repeat: repeat;
+  animation: animated-bg 60s linear infinite;
+  width: 100%;
+  height: 150%;
+}
+@keyframes animated-bg {
+  from { background-position: 0 0; }
+  to { background-position: 0 1000px; }
+}
+.wrapper {
+        position: relative;
+        width: 112px;
+        height: 130px;
+        margin-bottom: 3px;
+    }
+    #dd {
+        position: absolute;
+        height: 130px !important;
+    }
+    </style>
+  
+   </head>
+  
+   <body>
+      <script>
+        var width=112,r=1;
+        
+        setTimeout('ff()', 100);
+        function ff() {
+        d=document.getElementById('dd');
+        
+        if(d.width>2&&r==1){
+            d.style.left=(parseInt(d.style.left)+1)+"px";
+            d.width=d.width-2;
+        }else if(d.width<width&&r==0){
+            d.style.left=(parseInt(d.style.left)-1)+"px";
+            d.width=d.width+2;
+        }else {r=(r==1?0:1);}
+        setTimeout('ff()', 100);
+        }
+        
+        </script>
+        
+      
+      <div class="animation-bg">
+         <div class="bg-ex-stars"></div>
+       </div>
+
+    <div class="container">
+
+        
+       
+        
+           <div class="header">   </div>
+         
+           <div class="sidebar">
+
+         <br><br> <a href="plan.html"  class="btn" font size="3">Квантовые вычисления</a><br><br>
+
+     <a href="zn.html"  class="btn">Виртуальная реальность</a><br><br>
+
+     <a href="um.html"  class="btn">Квантовые сенсоры</a><br><br>
+    
+
+  
+     <div class="wrapper">
+      <p><a href="SH2.html" ><img src="код2.jpg" style="left: 0;" id="dd" width="100" height="100" align=left></a></p><br>
+       
+      </div> 
+
+   </div>
+
+   <div class="content">
+
+      <br><br><h2><b>Компьютер и будущее!</b></h2>
+
+         <ul class="markers">
+<UL> 
+      <LI> В современном мире компьютеры стали неотъемлемой частью нашей повседневной жизни. Они постоянно развиваются и удивляют нас своими возможностями. Но что нас ждет впереди? </LI><br><br>
+
+ 
+   <LI> Какие инновации принесет будущее в мир компьютеров? </LI><br><br>
+
+    <LI> Рассмотрим несколько ключевых технологических направлений, которые изменят компьютеры уже в ближайшем будущем.</LI><br>
+    <p><b>Квантовые вычисления</b> </p>
+    <p><b>Виртуальная и дополненная реальность</b></p>
+    <p><b>Квантовые сенсоры</b></p>
+        </UL>
+
+       
+     
+</div>
+
+<div class="footer">&copy; Рогова Василиса Васильевна, Можайский техникум</div>
+
+</div>
+
+</body>
+
+</html>
